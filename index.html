@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+  </head>
+  <body>
+	<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="max-width:1620px;">
+        <tr>
+        <td align="center" valign="top" style="font-size:0; padding: 0px 0;"><!--[if mso]>
+        <table border="0" cellspacing="0" cellpadding="0" align="center" width="660">
+        <tr>
+        <td align="left" valign="top" width="330">
+        <![endif]-->
+        <div style="display:inline-block; max-width:50%; margin: 0 -2px; min-width:200px; vertical-align:top; width:100%;" class="stack-column">
+        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+        <td style="padding: 10px 10px;"><table cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+        <tr>
+        <td><!-- <model-viewer> HTML element -->
+    <model-viewer bounds="tight" enable-pan src="Suit_Canali_Suit-only_02.glb" ar ar-modes="webxr scene-viewer quick-look" style="width:800px;height:1000px;" camera-controls poster="poster.webp" shadow-intensity="1" exposure="2" shadow-softness="1" environment-image="pillars_1k.hdr" skybox-image="pillars_1k.hdr">
+      <div class="progress-bar hide" slot="progress-bar">
+      <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script></td>
+                                </tr>
+                                <tr>
+                                  <td>  </td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table>
+                      </div>
+                      
+                      <!--[if mso]>
+                                    </td>
+                                    <td align="left" valign="top" width="330">
+                                    <![endif]-->
+                      
+                      <div style="display:inline-block; max-width:50%; margin: 0 -2px; min-width:0px; vertical-align:top; width:100%;" class="stack-column">
+                        <table width="100%">
+                          <tr>
+                            <td style="padding: 10px 10px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="font-size: 14px;text-align: left;">
+                                <tr>
+                                  <td style="text-align: center"><img src="2021AW_enjoie-17.jpg" alt="" width="800" height="1000" class="center-on-narrow" style="border: 0;width: 100%;max-width: 800px;height: 1000px;"></td>
+                                </tr>
+                                <tr>
+                                  <td>  </td>
+                                </tr>
+                            </table></td>
+                          </tr>
+                        </table>
+                      </div>
+                      
+                      <!--[if mso]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]--></td>
+
+  </body>
+</html>
